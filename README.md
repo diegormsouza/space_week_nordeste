@@ -1,6 +1,6 @@
 # 🛰️ Acesso e Processamento de Produtos EUMETSAT (LSA SAF / H SAF / MTG) 🌎
 
-Neste repositório estão disponibilizados todos os arquivos vistos durante o minicurso.
+Neste repositório são disponibilizados todos os arquivos vistos durante o minicurso.
 
 ![banner](https://github.com/diegormsouza/spaceweek2023/assets/54595784/c90c5d1b-3b21-4747-a5b2-973d33b6a6cc)
 
