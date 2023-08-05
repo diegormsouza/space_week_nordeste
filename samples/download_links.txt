@@ -1,0 +1,45 @@
+The following files have been used to run scripts locally:
+
+Land Surface Temperature - 10 Day Composite (MSG/SEVIRI)
+https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/DLST/NETCDF/2023/07/11/NETCDF4_LSASAF_MSG_DLST-MAX10D_MSG-Disk_202307112345.nc
+
+Land Surface Temperature (Metop/AVHRR)
+https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/EPS/EDLST/NETCDF/2023/07/22/NETCDF4_LSASAF_M01-AVHR_EDLST-DAY_GLOBE_202307220000.nc
+
+Normalized Difference Vegetation Index (Metop/AVHRR)
+https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/EPS/ENDVI10/ENVI/2023/07/11/METOP_AVHRR_20230711_S10_AMs_V200.zip
+
+Fire Radiative Power Pixel (MSG/SEVIRI) 
+https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2023/07/25/HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202307251500
+
+Root Zone Soil Moisture Profile Index (Metop/ASCAT):
+ftphsaf.meteoam.it
+/h26/h26_cur_mon_nc/h26_2023072500_R01.nc
+
+Precipitation / Soil Moisture Integrated Product (Multimission):
+ftphsaf.meteoam.it
+/h64/h64_cur_mon_data/h64_20230725_0000_24_hea.nc.gz
+
+10-day Surface Albedo
+https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/EPS/ETAL/NETCDF/2023/07/25/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202307250000.nc
+
+10-day Fraction of Absorved Photosynthetic Active Radiation
+https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/EPS/ETFAPAR/NETCDF/2023/07/25/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202307250000.nc
+
+10-day Fraction of Vegetation Cover
+https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/EPS/ETFVC/NETCDF/2023/07/25/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202307250000.nc
+
+10-day Leaf Area Index
+https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/EPS/ETLAI/NETCDF/2023/07/25/NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202307250000.nc
+
+Evapotranspiration (MSG)
+https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/METv3/NETCDF/2023/07/27/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202307271500.nc
+
+Total Downward Surface Shortwave Flux (MSG)
+https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/MDSSFTD/NETCDF/2023/07/27/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202307271500.nc
+
+Daily Downward Surface Shortwave Flux (MSG)
+https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/MDIDSSF/NETCDF/2023/07/26/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202307260000.nc
+
+MTG FCI Simulated Samples:
+https://sftp.eumetsat.int/public/folder/UsCVknVOOkSyCdgpMimJNQ/User-Materials/Test-Data/MTG/MTG_FCI_L1C_SpectrallyRepresentative_TD-360_May2022/
