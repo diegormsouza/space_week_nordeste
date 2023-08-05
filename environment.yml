@@ -1,0 +1,15 @@
+name: spaceweek
+channels:
+  - conda-forge
+dependencies:
+  - netcdf4
+  - cartopy
+  - regionmask
+  - imageio
+  - satpy
+  - pyproj
+  - pyspectral
+  - hdf5plugin
+  - pip
+  - pip:
+    - ascat
