@@ -8,6 +8,8 @@ Neste repositório são disponibilizados todos os arquivos vistos durante o mini
 
 - **colab**: Para execução de scripts diretamente na nuvem
 
+- **doc**: Documentos e apresentações do minicurso
+
 - **mtg**: Scripts para processamento de dados MTG
 
 - **saf**: Scripts para processamento de dados SAF
