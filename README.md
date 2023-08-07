@@ -14,4 +14,4 @@ Neste repositório são disponibilizados todos os arquivos vistos durante o mini
 
 - **saf**: Scripts para processamento de dados SAF
 
-- **samples**: Amostras de dados
+- **samples**: Links para baixar amostras de dados utilizados no scripts demonstração
