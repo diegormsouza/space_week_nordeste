@@ -15,3 +15,5 @@ Neste repositório são disponibilizados todos os arquivos vistos durante o mini
 - **saf**: Scripts para processamento de dados SAF
 
 - **samples**: Links para baixar amostras de dados utilizados no scripts demonstração
+
+- **environment.yml**: Arquivo para instalação do ambiente conda e suas bibliotecas (para execução local)
