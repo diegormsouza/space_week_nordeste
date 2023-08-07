@@ -1,3 +1,8 @@
+#-------------------------------------------------------------------------------------------------------------------
+# Training - Processing EUMETSAT Data and Products (MTG) - Example 1: Basic Plot
+# Author: Diego Souza (INPE/CGCT/DISSM)
+#-------------------------------------------------------------------------------------------------------------------
+
 # required modules
 import hdf5plugin                               # for reading compressed data, a decompression library is needed
 import glob                                     # unix style pathname pattern expansion

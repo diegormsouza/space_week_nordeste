@@ -1,3 +1,8 @@
+#-------------------------------------------------------------------------------------------------------------------
+# Training - Processing EUMETSAT Data and Products (MTG) - Example 5: RGBs
+# Author: Diego Souza (INPE/CGCT/DISSM)
+#-------------------------------------------------------------------------------------------------------------------
+
 # required modules
 import hdf5plugin                               # for reading compressed data, a decompression library is needed
 import matplotlib.pyplot as plt                 # plotting library
@@ -13,6 +18,8 @@ from matplotlib.offsetbox import AnchoredText   # adds an anchored text box in t
 from matplotlib.offsetbox import OffsetImage    # change the image size (zoom)
 from matplotlib.offsetbox import AnnotationBbox # creates an annotation using an OffsetBox
 from satpy import Scene                         # scene object to hold satellite data
+
+#-------------------------------------------------------------------------------------------------------------------
 
 # initialise Scene
 path_to_testdata = '../samples/mtg/RC0073/'
@@ -124,6 +131,8 @@ date = date.strftime('%Y-%m-%d %H:%M UTC')
 # add a title
 plt.title(f'MTG-I1 FCI Simulated Test Data - True Color RGB\n{date}' , fontweight='bold', fontsize=10, loc='left')
 plt.title('Space Week Nordeste 2023', fontsize=10, loc='right')
+
+#-------------------------------------------------------------------------------------------------------------------
 
 # show the image
 from satpy.writers import get_enhanced_image

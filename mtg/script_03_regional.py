@@ -1,3 +1,8 @@
+#-------------------------------------------------------------------------------------------------------------------
+# Training - Processing EUMETSAT Data and Products (MTG) - Example 3: Regional Plots
+# Author: Diego Souza (INPE/CGCT/DISSM)
+#-------------------------------------------------------------------------------------------------------------------
+
 # required modules
 import hdf5plugin                               # for reading compressed data, a decompression library is needed
 import matplotlib.pyplot as plt                 # plotting library
@@ -8,6 +13,8 @@ import cartopy, cartopy.crs as ccrs             # produce maps and other geospat
 import cartopy.feature as cfeature              # common drawing and filtering operations
 import cartopy.io.shapereader as shpreader      # import shapefiles
 from satpy import Scene                         # scene object to hold satellite data
+
+#-------------------------------------------------------------------------------------------------------------------
 
 # initialise Scene
 path_to_testdata = '../samples/mtg/RC0073/'
@@ -21,6 +28,8 @@ scn_resampled = scn.resample("south_america", resampler='nearest', radius_of_inf
 
 # read the crs
 crs = scn_resampled["ir_105"].attrs['area'].to_cartopy_crs()
+
+#-------------------------------------------------------------------------------------------------------------------
 
 # plot size (width x height, in inches)
 plt.figure(figsize=(8,7))

@@ -1,3 +1,8 @@
+#-------------------------------------------------------------------------------------------------------------------
+# Training - Processing EUMETSAT Data and Products (MTG) - Example 4: Custom Area
+# Author: Diego Souza (INPE/CGCT/DISSM)
+#-------------------------------------------------------------------------------------------------------------------
+
 # required modules
 import hdf5plugin                               # for reading compressed data, a decompression library is needed
 import matplotlib.pyplot as plt                 # plotting library
@@ -10,6 +15,8 @@ import cartopy.io.shapereader as shpreader      # import shapefiles
 import pyproj                                   # python interface to PROJ (cartographic projections and coordinate transformations library)
 from pyresample import geometry                 # classes for describing different geographic areas using a mesh of points or pixels
 from satpy import Scene                         # scene object to hold satellite data
+
+#-------------------------------------------------------------------------------------------------------------------
 
 # initialise Scene
 path_to_testdata = '../samples/mtg/RC0073/'
