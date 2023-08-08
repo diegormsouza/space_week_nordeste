@@ -48,8 +48,8 @@ while (date_loop <= date_end):
     file_name = f'METOP_AVHRR_{year}{month}{day}_S10_AMs_V200.zip'
 
     # user and password
-    user = 'diegosouza'
-    password = 'myLSASAF2023#'
+    user = 'INSERIR_SEU_USERNAME'
+    password = 'INSERIR_SEU_PASSWORD'
 
     try:
       # download file
